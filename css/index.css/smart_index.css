@@ -1,0 +1,161 @@
+@media screen and (max-width: 520px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #faf5e4;
+    position: relative;
+  }
+  body header {
+    width: 100vw;
+    height: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #f8b400;
+  }
+  body header p {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  body .family_name {
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+    font-size: 4vw;
+    font-weight: bold;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .family_name p {
+    margin: 0;
+  }
+  body .family_name .icon_box {
+    width: 22px;
+    height: 25px;
+    margin-right: 10px;
+    background-color: #2c786c;
+    border-radius: 0 0 25% 25%;
+  }
+  body .family_name .icon_box p {
+    width: 100%;
+    height: 7px;
+    margin: 0;
+    border-bottom: dashed 1px #ca3;
+  }
+  body .calendar {
+    width: 90vw;
+    height: 40%;
+    margin: 1rem auto 0;
+  }
+  body .calendar .title {
+    width: 100%;
+    height: 10%;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body .calendar .title a {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #2c786c;
+  }
+  body .calendar .table {
+    width: 100%;
+    height: 70%;
+    margin: 0;
+    font-size: 1rem;
+  }
+  body .calendar .table a {
+    color: #000;
+  }
+  body .calendar .table th {
+    width: 1rem;
+    height: 1rem;
+    line-height: 1;
+    text-align: center;
+  }
+  body .calendar .table td {
+    width: 1rem;
+    height: 1rem;
+    padding: 0em;
+    text-align: center;
+  }
+  body .calendar .table td div {
+    width: 100%;
+    height: 100%;
+  }
+  body .calendar .table .today {
+    background: orange;
+  }
+  body .calendar .table th:nth-of-type(1) {
+    color: red;
+  }
+  body .calendar .table th:nth-of-type(7) {
+    color: blue;
+  }
+  body .this_month {
+    width: 90vw;
+    height: 20%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    overflow: auto;
+  }
+  body .this_month .expenditure {
+    width: 100%;
+  }
+  body .this_month .expenditure p {
+    margin: 0;
+    padding-left: 5px;
+  }
+  body .this_month .expenditure_name {
+    width: 100%;
+  }
+  body .this_month .expenditure_name p {
+    margin: 0;
+    padding-top: 1rem;
+    padding-left: 10px;
+    line-height: 1rem;
+  }
+  body footer {
+    width: 100vw;
+    height: 10%;
+    background-color: #f8b400;
+    position: absolute;
+    bottom: 0;
+  }
+  body footer a {
+    color: #000;
+    text-decoration: none;
+  }
+  body footer a div {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body footer a div p {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+}
+/*# sourceMappingURL=smart_index.css.map */
