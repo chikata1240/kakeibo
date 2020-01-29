@@ -1,0 +1,187 @@
+@media screen and (min-width: 1100px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #faf5e4;
+  }
+  body header {
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f8b400;
+  }
+  body header div {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: table;
+  }
+  body header div .input_title {
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #000;
+  }
+  body .input_body {
+    width: 50vh;
+    height: 65vh;
+    background-color: #2c786c;
+    border-radius: 0 0 25% 25%;
+  }
+  body .input_body .input_body_title_box {
+    width: 100%;
+    height: 15%;
+    margin: 0;
+    display: table;
+    text-align: center;
+    border-bottom: dashed 2px #ca3;
+  }
+  body .input_body .input_body_title_box .input_body_title {
+    font-size: 2rem;
+    font-weight: bold;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  body .input_body form {
+    width: 80%;
+    height: 90%;
+    margin: 0 auto;
+    padding-left: 10px;
+  }
+  body .input_body form .budget {
+    width: 100%;
+    height: 18%;
+    padding-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body .input_body form .budget .radio-inline__input {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+  }
+  body .input_body form .budget .radio-inline__label {
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    background-color: #f0f0f0;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    font-size: 2rem;
+  }
+  body .input_body form .budget .radio-inline__input:checked + .radio-inline__label {
+    background-color: #646464;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
+  }
+  body .input_body form .money_text {
+    width: 100%;
+    height: 13%;
+    line-height: 1em;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body .input_body form .money_text label {
+    font-size: 2.5rem;
+    vertical-align: middle;
+  }
+  body .input_body form .money_text input {
+    width: 60%;
+    height: 80%;
+    padding-right: 10px;
+    border-radius: 7px;
+    background-color: #000;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: right;
+  }
+  body .input_body form .memo_textarea {
+    width: 100%;
+    height: 20%;
+    font-size: 2rem;
+    font-weight: 600;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body .input_body form .memo_textarea textarea {
+    width: 100%;
+    height: 100%;
+    margin-top: 6px;
+    font-size: 2rem;
+    resize: none;
+    vertical-align: top;
+  }
+  body .input_body form .submit_box {
+    width: 100%;
+    height: 33%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .input_body form .submit_box .submit {
+    padding: 5px 20px 5px;
+    display: inline-block;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+    background-color: #ccc;
+    border-radius: 5px;
+    letter-spacing: 3px;
+    cursor: pointer;
+  }
+  body footer {
+    width: 100vw;
+    height: 10%;
+    background-color: #f8b400;
+    position: absolute;
+    bottom: 0;
+  }
+  body footer a {
+    color: #000;
+    text-decoration: none;
+  }
+  body footer a div {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body footer a div p {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+}
+/*# sourceMappingURL=pc_input_styles.css.map */
