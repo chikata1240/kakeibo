@@ -1,6 +1,6 @@
 <?php
 session_start();
-require('dbconnect_copy.php');
+require('dbconnect.php');
 
 // login.phpから移動していない場合、login.phpへ飛ばす
 if (isset($_SESSION['id']) && $_SESSION['time'] + 3600 > time()) {
