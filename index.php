@@ -127,9 +127,7 @@ $month_peoples->execute(array(
   </header>
   <!-- family name -->
   <div class="family_name">
-    <div class="icon_box">
-      <p></p>
-    </div>
+    <img src="image/kbou.png" class="image_icon" alt="キャラクターのアイコンです" width="50px" height="50px">
     <p><?php print(htmlspecialchars($family['family_code'], ENT_QUOTES)); ?>家</p>
   </div>
   <!-- calendar -->
