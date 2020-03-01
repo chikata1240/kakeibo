@@ -1,177 +1,180 @@
 @media screen and (min-width:1100px)
 {
-  // body
-  body{
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #faf5e4;
-    // header
-    header{
+  html{
+    font-size: 62.5%;
+    // body
+    body{
       width: 100vw;
-      height: 10vh;
-      position: fixed;
-      top: 0;
-      left: 0;
-      background-color: #f8b400;
-      div{
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        display: table;
-        .input_title{
-          margin: 0;
-          display: table-cell;
-          vertical-align: middle;
-          font-size: 3rem;
-          font-weight: 600;
-          color: #000;
-        }
-      }
-    }
-    // input body
-    .input_body{
-      width: 50vh;
-      height: 65vh;
-      background-color: #2c786c;
-      border-radius: 0 0 25% 25%;
-      // body title
-      .input_body_title_box{
-        width: 100%;
-        height: 15%;
-        margin: 0;
-        display: table;
-        text-align: center;
-        border-bottom: dashed 2px #ca3;
-        // input body title
-        .input_body_title{
-          font-size: 2rem;
-          font-weight: bold;
-          display: table-cell;
-          vertical-align: middle;
-        }
-      }// body title
-      
-      // input form box
-      form{
-        width: 80%;
-        height: 90%;
-        margin: 0 auto;
-        padding-left: 10px;
-        // 支出・収入ボタン
-        .budget{
-          width: 100%;
-          height: 18%;
-          padding-top: 20px;
-          display: flex;
-          align-items: center;
-          box-sizing: border-box;
-          .radio-inline__input {
-            clip: rect(1px, 1px, 1px, 1px);
-            position: absolute !important;
-          }
-          .radio-inline__label {
-            padding: 0.5rem 1rem;
-            display: inline-block;
-            background-color: rgb(240,240,240);
-            transition: all .2s;
-            font-size: 2rem;
-          }
-          .radio-inline__input:checked + .radio-inline__label {
-            background-color: rgb(100,100,100);
-            color: #fff;
-            text-shadow: 0 0 1px rgba(0,0,0,.7);
-          }
-        }
-        
-        // money text
-        .money_text{
-          width: 100%;
-          height: 13%;
-          line-height: 1em;
-          box-sizing: border-box;
-          label{
-            font-size: 2.5rem;
-            vertical-align: middle;
-          }
-          input{
-            width: 60%;
-            height: 80%;
-            padding-right: 10px;
-            border-radius: 7px;
-            background-color: #000;
-            color: #fff;
-            font-size: 2rem;
-            font-weight: bold;
-            text-align: right;
-          }
-        }
-        
-        // money textarea
-        .memo_textarea{
-          width: 100%;
-          height: 20%;
-          font-size: 2rem;
-          font-weight: 600;
-          box-sizing: border-box;
-          textarea{
-            width: 100%;
-            height: 100%;
-            margin-top: 6px;
-            font-size: 2rem;
-            resize: none;
-            vertical-align: top;
-          }
-        }
-        
-        // submit box
-        .submit_box{
-          width: 100%;
-          height: 33%;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          .submit{
-            padding: 5px 20px 5px;
-            display: inline-block;
-            font-size: 2.5rem;
-            font-weight: 400;
-            text-align: center;
-            background-color: #ccc;
-            border-radius: 5px;
-            letter-spacing: 3px;
-            cursor: pointer;
-          }
-        }
-      }// input form box
-    }// input body
-
-    // footer
-    footer{
-      width: 100vw;
-      height: 10%;
-      background-color: #f8b400;
-      position: absolute;
-      bottom: 0;
-      a{
-        color: #000;
-        text-decoration: none;
+      height: 100vh;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #faf5e4;
+      // header
+      header{
+        width: 100vw;
+        height: 10vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #f8b400;
         div{
           width: 100%;
           height: 100%;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          p{
+          text-align: center;
+          display: table;
+          .input_title{
             margin: 0;
+            display: table-cell;
+            vertical-align: middle;
             font-size: 3rem;
             font-weight: 600;
+            color: #000;
           }
         }
       }
-    }
-  }// body
+      // input body
+      .input_body{
+        width: 50vh;
+        height: 65vh;
+        background-color: #2c786c;
+        border-radius: 0 0 25% 25%;
+        // body title
+        .input_body_title_box{
+          width: 100%;
+          height: 15%;
+          margin: 0;
+          display: table;
+          text-align: center;
+          border-bottom: dashed 2px #ca3;
+          // input body title
+          .input_body_title{
+            font-size: 2rem;
+            font-weight: bold;
+            display: table-cell;
+            vertical-align: middle;
+          }
+        }// body title
+        
+        // input form box
+        form{
+          width: 80%;
+          height: 90%;
+          margin: 0 auto;
+          padding-left: 10px;
+          // 支出・収入ボタン
+          .budget{
+            width: 100%;
+            height: 18%;
+            padding-top: 20px;
+            display: flex;
+            align-items: center;
+            box-sizing: border-box;
+            .radio-inline__input {
+              clip: rect(1px, 1px, 1px, 1px);
+              position: absolute !important;
+            }
+            .radio-inline__label {
+              padding: 0.5rem 1rem;
+              display: inline-block;
+              background-color: rgb(240,240,240);
+              transition: all .2s;
+              font-size: 2rem;
+            }
+            .radio-inline__input:checked + .radio-inline__label {
+              background-color: rgb(100,100,100);
+              color: #fff;
+              text-shadow: 0 0 1px rgba(0,0,0,.7);
+            }
+          }
+          
+          // money text
+          .money_text{
+            width: 100%;
+            height: 13%;
+            line-height: 1em;
+            box-sizing: border-box;
+            label{
+              font-size: 3rem;
+              vertical-align: middle;
+            }
+            input{
+              width: 60%;
+              height: 80%;
+              padding-right: 10px;
+              border-radius: 7px;
+              background-color: #000;
+              color: #fff;
+              font-size: 2rem;
+              font-weight: bold;
+              text-align: right;
+            }
+          }
+          
+          // money textarea
+          .memo_textarea{
+            width: 100%;
+            height: 20%;
+            font-size: 1.8rem;
+            font-weight: 600;
+            box-sizing: border-box;
+            textarea{
+              width: 100%;
+              height: 100%;
+              margin-top: 6px;
+              font-size: 1.5rem;
+              resize: none;
+              vertical-align: top;
+            }
+          }
+          
+          // submit box
+          .submit_box{
+            width: 100%;
+            height: 33%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .submit{
+              padding: 5px 20px 5px;
+              display: inline-block;
+              font-size: 2.5rem;
+              font-weight: 400;
+              text-align: center;
+              background-color: #ccc;
+              border-radius: 5px;
+              letter-spacing: 3px;
+              cursor: pointer;
+            }
+          }
+        }// input form box
+      }// input body
+  
+      // footer
+      footer{
+        width: 100vw;
+        height: 10%;
+        background-color: #f8b400;
+        position: absolute;
+        bottom: 0;
+        a{
+          color: #000;
+          text-decoration: none;
+          div{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p{
+              margin: 0;
+              font-size: 3rem;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }// body
+  }
 }// メディアクエリー
