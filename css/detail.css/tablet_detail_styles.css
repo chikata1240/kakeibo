@@ -1,5 +1,8 @@
 @media screen and (min-width: 520px) and (max-width: 1100px) {
-  body {
+  html {
+    font-size: 62.5%;
+  }
+  html body {
     width: 100%;
     height: 100vh;
     background-color: #faf5e4;
@@ -14,7 +17,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  body header {
+  html body header {
     width: 100%;
     height: 10%;
     position: fixed;
@@ -22,11 +25,11 @@
     left: 0;
     background-color: #f8b400;
   }
-  body header a {
+  html body header a {
     color: #000;
     text-decoration: none;
   }
-  body header a div {
+  html body header a div {
     width: 100%;
     height: 100%;
     display: -webkit-box;
@@ -39,19 +42,19 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  body header a div p {
+  html body header a div p {
     margin: 0;
     font-size: 2rem;
     font-weight: 600;
   }
-  body .detail_box {
+  html body .detail_box {
     width: 45vh;
     height: 65vh;
     color: #fff;
     border-radius: 0 0 15% 15%;
     background-color: #2c786c;
   }
-  body .detail_box .detail_title {
+  html body .detail_box .detail_title {
     height: 5%;
     margin: 0;
     padding: 18px 0 12px;
@@ -60,7 +63,7 @@
     text-align: center;
     border-bottom: dashed 2px #ca3;
   }
-  body .detail_box .detail_body {
+  html body .detail_box .detail_body {
     width: 100%;
     height: 70%;
     margin: 0 auto;
@@ -72,12 +75,12 @@
     font-weight: 600;
     overflow: auto;
   }
-  body .detail_box .detail_body .detail_boy_box {
+  html body .detail_box .detail_body .detail_boy_box {
     padding-bottom: 10px;
     font-size: 1.2rem;
     border-bottom: dashed 1px #ca3;
   }
-  body .detail_box .detail_body .detail_boy_box .detail_boy {
+  html body .detail_box .detail_body .detail_boy_box .detail_boy {
     width: 100%;
     padding: .3rem 0;
     display: -webkit-box;
@@ -90,21 +93,21 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  body .detail_box .detail_body .detail_boy_box .detail_boy p {
+  html body .detail_box .detail_body .detail_boy_box .detail_boy p {
     width: 50%;
   }
-  body .detail_box .detail_body .detail_boy_box .detail_boy a {
+  html body .detail_box .detail_body .detail_boy_box .detail_boy a {
     width: 30%;
     color: #fff;
     text-align: center;
     text-decoration: none;
   }
-  body .detail_box .detail_body .detail_boy_box .detail_boy a div {
+  html body .detail_box .detail_body .detail_boy_box .detail_boy a div {
     margin: 0;
     padding: .5rem;
     border: dashed 2px #ca3;
   }
-  body .detail_box .detail_body .detail_boy_box .detail_memo_box {
+  html body .detail_box .detail_body .detail_boy_box .detail_memo_box {
     padding-bottom: 5px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -113,7 +116,7 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  body .detail_box .detail_sum_box {
+  html body .detail_box .detail_sum_box {
     width: 100%;
     height: 15%;
     display: -webkit-box;
@@ -127,31 +130,31 @@
             align-items: center;
     line-height: 1em;
   }
-  body .detail_box .detail_sum_box p:nth-child(odd) {
+  html body .detail_box .detail_sum_box p:nth-child(odd) {
     width: 19%;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  body .detail_box .detail_sum_box p:nth-child(even) {
+  html body .detail_box .detail_sum_box p:nth-child(even) {
     width: 20%;
     margin-right: 5px;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     text-align: right;
   }
-  body footer {
+  html body footer {
     width: 100vw;
     height: 10%;
     background-color: #f8b400;
     position: absolute;
     bottom: 0;
   }
-  body footer a {
+  html body footer a {
     color: #000;
     text-decoration: none;
   }
-  body footer a div {
+  html body footer a div {
     width: 100%;
     height: 100%;
     display: -webkit-box;
@@ -164,7 +167,7 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  body footer a div p {
+  html body footer a div p {
     margin: 0;
     font-size: 2rem;
     font-weight: 600;
